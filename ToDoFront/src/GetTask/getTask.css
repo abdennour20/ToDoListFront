@@ -1,0 +1,130 @@
+.get-task-list {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  .task-item {
+    background: #ffffff;
+    border: 1px solid #e0e6ed;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .task-details h3 {
+    color: #333;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .task-details p {
+    margin: 5px 0;
+  }
+  
+  .task-details p:nth-child(2) {
+    color: #5e5f60;
+    font-size: 1.2em;
+  }
+  
+  .task-details p:nth-child(4) {
+    font-size: 1.2em;
+    color: #ff6347;
+  }
+  
+  .task-details p:nth-child(5) {
+    font-size: 1.1em;
+    color: #8a8a8a;
+  }
+  
+  .task-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .update-button, .delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .update-task-form {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-task-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .update-task-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .update-task-form input, .update-task-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .update-task-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-task-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .update-task-form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .update-task-form button:hover {
+    opacity: 0.9;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+  }
+  
